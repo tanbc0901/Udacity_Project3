@@ -47,4 +47,4 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
     console.log( `server running ${config.url}` );
     console.log( `press CTRL+C to stop server` );
   } );
-})();
+})().catch((e) => { console.log(e)});;
